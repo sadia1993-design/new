@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Banner from "../components/Banner";
+import Features from "@/components/Features";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
 
       <main>
         <Banner />
+        <Features/>
       </main>
     </>
   );
