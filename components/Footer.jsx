@@ -1,6 +1,6 @@
 import React,{memo} from "react";
 import Image from "next/image";
-import colors from '../styles/colors.module.css'
+import colors from '@/styles/Colors.module.css'
 import Link from "next/link";
 
 function Footer() {

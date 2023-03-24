@@ -1,5 +1,5 @@
 import React,{memo} from "react";
-import styles from "../styles/home.module.css";
+import styles from "@/styles/Home.module.css";
 import { FaArrowRight } from "react-icons/fa";
 
 function Subscribe() {
