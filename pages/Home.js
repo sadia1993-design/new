@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Banner from "../components/Banner";
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
       </Head>
 
       <main>
-
+        <Banner />
       </main>
     </>
   );
