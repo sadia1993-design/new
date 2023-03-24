@@ -1,7 +1,7 @@
 import React,{memo} from "react";
 import { FaLongArrowAltRight, FaEnvelope, FaMobile } from "react-icons/fa";
 import Image from "next/image";
-import styles from "../styles/about.module.css";
+import styles from "@/styles/About.module.css";
 
 function LocationBox(props) {
   return (
