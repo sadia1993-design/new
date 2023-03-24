@@ -1,7 +1,13 @@
 import React from "react";
 import Head from "next/head";
-import Banner from "../components/Banner";
+import Banner from "@/components/Banner";
 import Features from "@/components/Features";
+import About from "@/components/About";
+import Payment from "@/components/Payment";
+import HowWorks from "@/components/HowWorks";
+import AppDownload from "@/components/AppDownload";
+import Testimonial from "@/components/Testimonial";
+import Faq from "@/components/Faq";
 
 function Home() {
   return (
@@ -22,6 +28,12 @@ function Home() {
       <main>
         <Banner />
         <Features/>
+        <About/>
+        <Payment/>
+        <HowWorks/>
+        <AppDownload/>
+        <Testimonial/>
+        <Faq/>
       </main>
     </>
   );

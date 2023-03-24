@@ -1,7 +1,7 @@
 import React,{memo} from "react";
 import Image from "next/image";
-import styles from '../styles/home.module.css'
-import colors from '../styles/colors.module.css'
+import styles from '@/styles/Home.module.css'
+import colors from '@/styles/Colors.module.css'
 
 
 function HowWorks() {

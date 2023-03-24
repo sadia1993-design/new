@@ -1,6 +1,6 @@
 import React,{memo} from "react";
-import colors from "../styles/colors.module.css";
-import styles from "../styles/home.module.css";
+import colors from "@/styles/Colors.module.css";
+import styles from "@/styles/Home.module.css";
 import Carousel from "react-grid-carousel";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
