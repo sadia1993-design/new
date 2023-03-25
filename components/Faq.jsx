@@ -4,11 +4,11 @@ import styles from "@/styles/Home.module.css";
 function Faq() {
   return (
     <>
-      <section className={`  py-2`} >
-        <div className="container px-5 ">
+      <section className={`  py-lg-2  ${styles.faq_area}`} >
+        <div className="container px-lg-5 ">
           <div className="row">
             <div className="col-lg-8 offset-lg-2 col-sm-12">
-              <div className={` text-center  pt-5  testimonial-mb`} style={{ marginBottom: '53px'}}>
+              <div className={` text-center  pt-lg-5  testimonial-mb`} style={{ marginBottom: '53px'}}>
                 <h3 className={styles.howSubTitle} >Frequently Asked Questions</h3>
                 <h1 className={styles.howTitle}>
                   If you got questions we

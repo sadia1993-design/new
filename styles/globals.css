@@ -237,10 +237,8 @@
   /* responsive css */
   
   @media    (max-width: 991px){
-    .home_bannerform__97BoP {
-        width: 100% !important;
-        margin-top: 50px;
-    }
+    
+    
     p.featureIcon {
       font-size: 28px !important;
   }

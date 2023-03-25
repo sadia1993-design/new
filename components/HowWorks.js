@@ -57,7 +57,7 @@ function HowWorks() {
                 </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12" >
-              <div className="">
+              <div className={styles.singleItemT }>
               <Image
                   src="/images/how-works/how-works-icon-4.png"
                   alt="Picture of the author"

@@ -19,7 +19,7 @@ function Subscribe() {
                 color: "#fff",
               }}
             >
-              <h3 className="">Subscribe to Our Newsletter</h3>
+              <h3 >Subscribe to Our Newsletter</h3>
               <form>
                 <div className="input-group mb-3">
                   <input

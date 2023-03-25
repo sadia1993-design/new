@@ -10,7 +10,7 @@ function Payment() {
       <section className={styles.payment} id="payment-area">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8 offset-lg-2">
+            <div className="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-12">
               <div className="text-center mb-5 mobile">
                 <p className={`h5 mb-4 ${styles.greenText}`}>High speeds. Low fees. No hassle.</p>
                 <h1 className={`text-white mb-4 fw-bolder  ${fontsize.fontSize57} `}>

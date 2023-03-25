@@ -1,40 +1,40 @@
-.bgColor{
+.bgColor {
   padding: 10px 30px;
   font-weight: 600;
   text-align: center;
   background: #4b24c0;
   color: var(--bs-white);
-  transition: .3s;
+  transition: 0.3s;
   border-radius: 10px;
   border: 1px solid transparent;
   margin-left: 15px;
 }
-.bgColor svg{
+.bgColor svg {
   margin-left: 15px;
 }
 /* about section */
-.abtSubTitle{
+.abtSubTitle {
   color: #4b24c0;
   font-size: 24px;
   line-height: 31.2px;
   margin-bottom: 30px;
   font-weight: 600;
 }
-.abtTitle{
+.abtTitle {
   font-size: 57px;
   line-height: 74.1px;
   color: #0c266c;
   font-weight: 700;
   margin-bottom: 22px;
 }
-.howSubTitle{
+.howSubTitle {
   color: #4b24c0;
   font-size: 24px;
   line-height: 31.2px;
   margin-bottom: 30px;
   font-weight: 600;
 }
-.howTitle{
+.howTitle {
   font-size: 57px;
   line-height: 74.1px;
   color: #0c266c;
@@ -57,9 +57,9 @@
   margin-bottom: 20px;
   border-radius: 20px;
   padding: 40px 20px 33px;
-  transition: .3s;
+  transition: 0.3s;
 }
-.abt_img{
+.abt_img {
   margin-right: 40px;
 }
 .singlebox:hover {
@@ -70,21 +70,20 @@
   margin: 21px 0 24px;
   color: #0c266c;
 }
-.sectiontitle{
+.sectiontitle {
   text-align: center;
   margin-bottom: 60px;
 }
 
-
-#about{
+#about {
   padding: 120px 0;
 }
 /* how area */
-#howarea{
+#howarea {
   padding: 120px 0;
   text-align: center;
 }
-.singleUpItem{
+.singleUpItem {
   position: relative;
 }
 .singleUpItem:after {
@@ -95,10 +94,9 @@
   height: 15px;
   right: calc(-17% - 10px);
   top: calc(35% - 20px);
-  background-image: url('../public/images/how-works/how-works-arrow-2.png');
-  
+  background-image: url("../public/images/how-works/how-works-arrow-2.png");
 }
-.singleItem{
+.singleItem {
   position: relative;
 }
 .singleItem:after {
@@ -109,12 +107,11 @@
   height: 15px;
   right: calc(-17% - 10px);
   top: calc(35% - 20px);
-  background-image: url('../public/images/how-works/arrow.png');
-  
+  background-image: url("../public/images/how-works/arrow.png");
 }
 /* payment */
-.payment{
-  background-image: url('../public/images/our-solutions-bg.png');
+.payment {
+  background-image: url("../public/images/our-solutions-bg.png");
   padding: 121px 200px;
   background-size: cover;
   background-position: center;
@@ -122,33 +119,32 @@
 .payment_module {
   margin-top: -122px;
 }
-p.greenText{
-  color: #00fe71 ;
+p.greenText {
+  color: #00fe71;
 }
-.pay_wrapper{
+.pay_wrapper {
   box-shadow: 2px 3.464px 24px 0 rgb(106 105 194 / 25%);
 }
 
 /* subscribe form */
-.subscribe{
-  background-image: url('../public/images/newsletter.png');
+.subscribe {
+  background-image: url("../public/images/newsletter.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: -178px;
   margin-top: 100px;
 }
-.subscribe h3{
+.subscribe h3 {
   font-weight: 700;
   font-size: 43px;
   line-height: 56px;
   margin-bottom: 40px;
 }
-.subscribe form{
+.subscribe form {
   width: 60%;
-  
 }
-.subscribe form input[type="email"]{
+.subscribe form input[type="email"] {
   background-color: #fff;
   border: 1px solid #e2e2ea;
   border-radius: 35px;
@@ -170,14 +166,13 @@ button.subscribebtn {
 }
 
 /* banner area */
-.bannerarea{
-  background-image: url('../public/images/banner/banner.png');
+.bannerarea {
+  background-image: url("../public/images/banner/banner.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
- 
 }
-.bannerform{
+.bannerform {
   border-radius: 10px;
   padding: 40px;
   background-color: #fff;
@@ -186,18 +181,79 @@ button.subscribebtn {
   margin-left: auto;
 }
 /* features */
-.featureAll{
+.featureAll {
   position: relative;
   padding: 70px 30px 65px;
   margin-top: -110px;
   transform: translateZ(10px);
   margin-bottom: 20px;
-  
+
   border-radius: 20px;
   background-color: #fff;
   box-shadow: 2px 3.464px 24px 0 rgb(106 105 194 / 25%);
   height: 100%;
   top: 0;
-  
 }
 
+@media (max-width: 991px) {
+  .bannerform {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  #about{
+    padding: 60px 0;
+  }
+  .abtTitle{
+    font-size: 35px;
+    line-height: 43.1px;
+  }
+  .abt_img{
+    margin-right: 23px;
+    max-width: 88%;
+    height: 228px;
+    margin-bottom: 41px;
+  }
+  .feature_details{
+    grid-template-columns: auto;
+    margin: 0 17px !important;
+  }
+  .payment{
+    padding: 50px 20px;
+  }
+  .payment_module{
+    margin-top: -70px;
+  }
+  #howarea{
+    padding: 70px 0;
+  }
+  .howTitle{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .howSubTitle{
+    margin-bottom: 15px;
+  }
+  .singleUpItem{
+    margin: 50px 0;
+  }
+  .singleItemT{
+    margin-top: 50px;
+  }
+  .singleItem:after{
+    display: none;
+  }
+  .singleUpItem:after{
+    display: none;
+  }
+  .faq_area{
+    padding: 0 20px;
+  }
+  .subscribe h3{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .subscribe form{
+    width: 75%;
+  }
+}
