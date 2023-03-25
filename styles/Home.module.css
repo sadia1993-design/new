@@ -195,7 +195,34 @@ button.subscribebtn {
   top: 0;
 }
 
+/* feature area */
+.featureIcon{
+  font-weight: 600;
+    font-size: 57px;
+    line-height: 30px;
+    color: #4743c9;
+    margin-bottom: 24px;
+}
+.featureText{
+  font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(12, 38, 108);
+}
+
 @media (max-width: 991px) {
+  .featureBox{
+    margin-bottom: 35px;
+  }
+  .featureText{
+    line-height: 22px;
+  }
+  .featureIcon{
+    margin-bottom: 13px;
+  }
+  .featureAll{
+    padding: 49px 13px 13px;
+  }
   .bannerform {
     width: 100% !important;
     margin-top: 50px;
@@ -255,5 +282,11 @@ button.subscribebtn {
   }
   .subscribe form{
     width: 75%;
+  }
+  .pay_wrapper{
+    margin-bottom: 30px;
+  }
+  .featureIcon{
+    font-size: 37px !important;
   }
 }
