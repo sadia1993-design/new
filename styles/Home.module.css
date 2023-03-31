@@ -9,6 +9,9 @@
   border: 1px solid transparent;
   margin-left: 15px;
 }
+.bgColor:hover {
+  background-color: #7db3fe;
+}
 .bgColor svg {
   margin-left: 15px;
 }
@@ -152,6 +155,7 @@ p.greenText {
   border-top-right-radius: 35px !important;
   border-bottom-right-radius: 35px !important;
   position: relative;
+  z-index: 0 !important;
 }
 button.subscribebtn {
   border: 0;
@@ -164,7 +168,9 @@ button.subscribebtn {
   top: 5px;
   border-radius: 50% !important;
 }
-
+button.subscribebtn:hover {
+  background-color: #7db3fe !important;
+}
 /* banner area */
 .bannerarea {
   background-image: url("../public/images/banner/banner.png");
@@ -179,6 +185,10 @@ button.subscribebtn {
   box-shadow: 2px 3.464px 24px 0 rgb(106 105 194 / 25%);
   width: 60%;
   margin-left: auto;
+}
+.bannerform button:hover {
+  background-color: #7db3fe !important;
+  color: #000 !important;
 }
 /* features */
 .featureAll {
@@ -196,97 +206,97 @@ button.subscribebtn {
 }
 
 /* feature area */
-.featureIcon{
+.featureIcon {
   font-weight: 600;
-    font-size: 57px;
-    line-height: 30px;
-    color: #4743c9;
-    margin-bottom: 24px;
+  font-size: 57px;
+  line-height: 30px;
+  color: #4743c9;
+  margin-bottom: 24px;
 }
-.featureText{
+.featureText {
   font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: rgb(12, 38, 108);
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(12, 38, 108);
 }
 
 @media (max-width: 991px) {
-  .featureBox{
+  .featureBox {
     margin-bottom: 35px;
   }
-  .featureText{
+  .featureText {
     line-height: 22px;
   }
-  .featureIcon{
+  .featureIcon {
     margin-bottom: 13px;
   }
-  .featureAll{
+  .featureAll {
     padding: 49px 13px 13px;
   }
   .bannerform {
     width: 100% !important;
     margin-top: 50px;
   }
-  #about{
+  #about {
     padding: 60px 0;
   }
-  .abtTitle{
+  .abtTitle {
     font-size: 35px;
     line-height: 43.1px;
   }
-  .abt_img{
+  .abt_img {
     margin-right: 23px;
     max-width: 88%;
     height: 228px;
     margin-bottom: 41px;
   }
-  .feature_details{
+  .feature_details {
     grid-template-columns: auto;
     margin: 0 17px !important;
   }
-  .payment{
+  .payment {
     padding: 50px 20px;
   }
-  .payment_module{
+  .payment_module {
     margin-top: -70px;
   }
-  #howarea{
+  #howarea {
     padding: 70px 0;
   }
-  .howTitle{
+  .howTitle {
     font-size: 30px;
     line-height: 40px;
   }
-  .howSubTitle{
+  .howSubTitle {
     margin-bottom: 15px;
   }
-  .singleUpItem{
+  .singleUpItem {
     margin: 50px 0;
   }
-  .singleItemT{
+  .singleItemT {
     margin-top: 50px;
   }
-  .singleItem:after{
+  .singleItem:after {
     display: none;
   }
-  .singleUpItem:after{
+  .singleUpItem:after {
     display: none;
   }
-  .faq_area{
+  .faq_area {
     padding: 0 20px;
   }
-  .subscribe h3{
+  .subscribe h3 {
     font-size: 30px;
     line-height: 40px;
     text-align: center;
   }
-  .subscribe form{
+  .subscribe form {
     width: 75%;
   }
-  .pay_wrapper{
+  .pay_wrapper {
     margin-bottom: 30px;
   }
-  .featureIcon{
+  .featureIcon {
     font-size: 37px !important;
   }
 }
